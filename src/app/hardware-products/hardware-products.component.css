@@ -1,0 +1,62 @@
+/* Estilos Gerais do Container */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Estilos do Card do Produto */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s;
+  width: 250px; /* Largura fixa para o card */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Estilos da Imagem do Produto */
+.product-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px; /* Espaço abaixo da imagem */
+}
+
+/* Estilos do Nome do Produto */
+.product-name {
+  font-size: 1.5em;
+  color: #333333;
+  margin: 10px 0;
+}
+
+/* Estilos do Preço do Produto */
+.product-price {
+  font-size: 1.2em;
+  color: #e63946; /* Cor do preço */
+  margin: 10px 0;
+}
+
+/* Estilos do Botão de Ver Detalhes */
+.view-details-button {
+  background-color: #00b4d8; /* Cor de fundo */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.view-details-button:hover {
+  background-color: #0077b6; /* Cor de fundo ao passar o mouse */
+  transform: scale(1.05); /* Efeito de aumentar ao passar o mouse */
+}

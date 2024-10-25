@@ -1,0 +1,56 @@
+/* Estilos para a Seção de Detalhes */
+.detalhes {
+    background-color: #f9f9f9;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px; /* Largura máxima para a seção */
+    margin: 20px auto; /* Centralizar */
+}
+
+/* Estilos da Imagem dos Detalhes */
+.detalhes-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px; /* Espaço abaixo da imagem */
+}
+
+/* Estilos do Nome do Produto */
+.detalhes-nome {
+    font-size: 1.8em;
+    color: #333333;
+    margin: 10px 0;
+}
+
+/* Estilos da Descrição do Produto */
+.detalhes-descricao {
+    font-size: 1.2em;
+    color: #555555;
+    margin: 10px 0;
+}
+
+/* Estilos do Preço do Produto */
+.detalhes-preco {
+    font-size: 1.4em;
+    color: #e63946; /* Cor do preço */
+    margin: 15px 0;
+}
+
+/* Estilos do Botão Voltar */
+.voltar-button {
+    background-color: #00b4d8; /* Cor de fundo */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.voltar-button:hover {
+    background-color: #0077b6; /* Cor de fundo ao passar o mouse */
+    transform: scale(1.05); /* Efeito de aumentar ao passar o mouse */
+}
